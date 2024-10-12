@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+    line-height: 0.7em;
+    background: linear-gradient(to right, rgb(1, 12, 58) 0%, rgb(229, 42, 91) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.btn{
+    background: linear-gradient(to right, rgb(1, 12, 58) 0%, rgb(229, 42, 91) 100%);
+    color:white;
+  
+}
+
+.buttos:hover {
+    color:white !important;
+    background: linear-gradient(to right, rgb(1, 12, 58) 0%, rgb(229, 42, 91) 100%);
+    cursor: pointer;
+    transition: ease 0.3s;
+
+}
+
+.buttos:hover button{
+    color:white !important;
+
+}
+
+.buttos{
+     transition: ease-in-out .3s;
+}
+
+.cards:hover img{
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    transition: 0.3s;
+
+}
+
+.icos p:first-child{
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+.icos:hover  p:first-child{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+nav {
+  
+    width: 100%;
+    background: transparent;
+    color: white;
+    z-index: 10;
+  }
+  
+.container-app{
+    @apply max-w-6xl mx-auto;
+}
+
+.left{
+    position: relative;
+    margin-left: 120px;
+}
+
+.left::before{
+    content: "";
+    background-image: url('../public/assets/package.png');
+    width: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: -110px;
+}
+
+.flexbox-2{
+    @apply flex md:justify-between items-center flex-col md:flex-row;
+}
+
+.card-onfo{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.imp{
+    color:red !important;
+}
