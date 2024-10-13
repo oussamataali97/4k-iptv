@@ -19,7 +19,7 @@ const questions=[{id:0,q :"Can I use my subscription on multiple devices?" ,r:"P
       <div className="container-app flexbox-2">
         <div className="w-full ">
             {questions.map((question,index)=>(
-                <div className="sec">
+                <div className="sec" key={index}>
 
                 <p className={`${toggle== true ?'imp' : 'imp'}w-full text-xl font-bold  bg-white mt-2 py-3 px-2 flex justify-between items-center`} onClick={(index)=>{setQues(question) ;setToggle(true)}  }> {question?.q } <span> { question.id ===index ?  <FaPlus/> :<FaPlus/> }</span>  </p>
                 {ques.id ===index && <p className="w-full  bg-gray-50 p-3 text-gray-800 font-light"> {ques?.r} </p> }
