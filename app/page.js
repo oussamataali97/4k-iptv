@@ -12,10 +12,10 @@ import FAQ from "@/components/FAQ";
 export default function Home() {
   return (
     <>
-<section className=" relative md:min-h-[600px] lg:min-h-screen   bg-cover bg-center "
+<section className="  md:min-h-[600px] lg:min-h-screen  bg-cover bg-center "
 style={{ backgroundImage: `url('/assets/image-5.jpg')`}}
 >
-    <div className=" flex  mt-[100px] lg:mt-0 md:h-[500px] lg:h-screen md:justify-between items-center flex-col md:flex-row  lg:px-8">
+    <div className=" flex w-fit  mt-[100px] lg:mt-0 md:h-[500px] lg:h-screen md:justify-between items-center flex-col md:flex-row  lg:px-8">
     <div className=" uppercase md:ml-16  ">
        <div className="md:text-[30px] text-[25px] text-[#010c3a] font-bold ">The Best International</div>
        <h1 className="md:text-[100px] lg:text-[250px] text-[70px] font-bold ">IPTV</h1>
