@@ -21,7 +21,7 @@ style={{ backgroundImage: `url('/assets/image-5.jpg')`}}
        <h1 className="md:text-[100px] lg:text-[250px] text-[70px] font-bold ">IPTV</h1>
        <div className="md:text-[30px] text-[25px] text-[#010c3a] font-bold mt-6">Service Provider</div>
    <div className="flex  mt-2">
-     <button className="btn text-white  lg:px-14 px-4  py-2 rounded-sm font-bold mr-5">Free Trial</button>
+     <button className="btn text-white  lg:px-14 px-4  py-2 rounded-sm font-bold mr-5">Free fTrial</button>
      <button className="bg-[#010c3a] text-white  lg:px-14 px-4 py-2 rounded-sm font-bold mr-5">Other Plans</button>
 
    </div>
