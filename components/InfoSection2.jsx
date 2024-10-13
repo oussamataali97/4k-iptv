@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const InfoSection2 = () => {
   return (
-    <div className="container-app flexbox-2  py-16 px-2">
+    <div className="md:container-app flexbox-2  py-16 px-2">
     <div className="left max-w-[550px] order-1">
       <p className="text-gray-800 text-[30px] font-bold uppercase  ">Premium Features of 4KLIVEIPTV      </p>
       <p className="text-[32px] md:text-[40px] font-bold  text-blue-950  ">Get a New Experience With 4KLive IPTV      </p>

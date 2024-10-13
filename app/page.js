@@ -12,7 +12,7 @@ import FAQ from "@/components/FAQ";
 export default function Home() {
   return (
     <>
-<section className=" relative md:min-h-[600px] lg:min-h-screen  bg-cover bg-center "
+<section className=" relative md:min-h-[600px] lg:min-h-screen   bg-cover bg-center "
 style={{ backgroundImage: `url('/assets/image-5.jpg')`}}
 >
     <div className=" flex  mt-[100px] lg:mt-0 md:h-[500px] lg:h-screen md:justify-between items-center flex-col md:flex-row  lg:px-8">
@@ -31,7 +31,7 @@ style={{ backgroundImage: `url('/assets/image-5.jpg')`}}
      src="/assets/image-11.png"
      
      width={580}
-     className=" w-[300px] lg:w-auto "
+     className=" w-[300px]  "
      height={580}
      alt="person"
      />
@@ -45,7 +45,7 @@ style={{ backgroundImage: `url('/assets/image-5.jpg')`}}
       <Services/>
       <InfoSection/>
       <InfoSection2/>
-      <FAQ/>
+  
 
       </>
 

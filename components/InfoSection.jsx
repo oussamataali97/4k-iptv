@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const InfoSection = () => {
   return (
-    <div className="container-app flexbox-2 py-16 px-2">
-        <div className="left max-w-[550px]">
+    <div className="md:container-app flexbox-2  py-16 px-2">
+        <div className="left md:max-w-[550px]">
           <p className="text-gray-800 text-[30px] font-bold uppercase  ">World’s # 1          </p>
           <p className="text-[32px] md:text-[40px] font-bold  text-blue-950  ">The Best IPTV Subscription Service Provider          </p>
           <p className='lead text-gray-600 py-4' >Revolutionize your TV experience with our 4K Live IPTV site. Explore a vast selection of global channels, including popular shows, live sports, movies, documentaries, and more. Elevate your entertainment with us.  </p>

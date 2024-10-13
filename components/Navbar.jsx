@@ -20,7 +20,7 @@ const Navbar = () => {
   const navMenu =["Pricing","Contact Us","Shop","Account","Login"];
   const [toogle,setToggle]=useState(false)
   return (
-    <nav className={`fixed px-4 md:px-10 py-0 lg:py-3  flex justify-between items-center w-full z-10 top-0 left-0 ${isScrolled ? 'bg-white text-black shadow-md' : 'bg-transparent text-black'} transition-all duration-300  `}>
+    <nav className={`fixed px-4 md:px-10 py-0 lg:py-3  flex justify-between items-center w-full z-10 top-0 left-0  ${isScrolled ? 'bg-white text-black shadow-md' : 'bg-transparent text-black'} transition-all duration-300  `}>
       <Link href='/'>
         <Image
         src="/assets/logo-9.png"
